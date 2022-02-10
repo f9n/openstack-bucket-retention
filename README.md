@@ -1,4 +1,4 @@
-# openstack-bucket-retention [![PyPi version](https://img.shields.io/pypi/v/openstack-bucket-retention.svg)](https://pypi.python.org/pypi/openstack-bucket-retention/) [![PyPI pyversions](https://img.shields.io/pypi/pyversions/openstack-bucket-retention.svg)](https://pypi.python.org/pypi/openstack-bucket-retention/) [![](https://img.shields.io/github/license/f9n/openstack-bucket-retention.svg)](https://github.com/f9n/openstack-bucket-retention/blob/master/LICENSE)
+# openstack-bucket-retention [![PyPi version](https://img.shields.io/pypi/v/openstack-bucket-retention.svg)](https://pypi.python.org/pypi/openstack-bucket-retention/) [![PyPI pyversions](https://img.shields.io/pypi/pyversions/openstack-bucket-retention.svg)](https://pypi.python.org/pypi/openstack-bucket-retention/) [![](https://img.shields.io/github/license/f9n/openstack-bucket-retention.svg)](https://github.com/f9n/openstack-bucket-retention/blob/main/LICENSE)
 
 Openstack bucket retention cli
 
