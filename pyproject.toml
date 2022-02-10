@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "openstack-bucket-retention"
+version = "0.1.0"
+description = "Openstack Bucket (Container) Retention"
+authors = ["Fatih Sarhan <f9n@protonmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/f9n/openstack-bucket-retention"
+repository = "https://github.com/f9n/openstack-bucket-retention"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-swiftclient = "^3.13.0"
+click = "^8.0.3"
+python-keystoneclient = "^4.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+openstack-bucket-retention = "openstack_bucket_retention.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
