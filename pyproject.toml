@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openstack-bucket-retention"
-version = "0.1.0"
+version = "0.2.0"
 description = "Openstack Bucket (Container) Retention"
 authors = ["Fatih Sarhan <f9n@protonmail.com>"]
 license = "GPL-3.0"
