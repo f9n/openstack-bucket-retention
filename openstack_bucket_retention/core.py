@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 from swiftclient.service import SwiftService, SwiftError
 
-UNITS = {"s": "seconds", "m": "minutes", "h": "hours", "d": "days", "w": "weeks"}
+UNITS = dict(s="seconds", m="minutes", h="hours", d="days", w="weeks")
 
 logger = logging.getLogger(__name__)
 
